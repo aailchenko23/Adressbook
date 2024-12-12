@@ -1,0 +1,84 @@
+.root{
+   -fx-background-color: linear-gradient(to bottom, #f0f0f0, #e6e6e6); /* градієнт від світлого до сірого */
+      -fx-font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      -fx-font-size: 14px;
+  }
+
+  /* Кнопки */
+  .button {
+      -fx-background-color:linear-gradient(to right, #d97b7b, #e68d8d); /* градієнт на кнопках */
+      -fx-text-fill: white; /* білий колір тексту */
+      -fx-border-radius: 5px;
+      -fx-background-radius: 5px;
+      -fx-padding: 10px 20px;
+      -fx-font-weight: bold;
+      -fx-font-size: 14px;
+  }
+
+  .button:hover {
+      -fx-background-color: #gray; /* зміна кольору при наведенні */
+  }
+
+  /* Пошукове поле */
+  .text-field {
+      -fx-padding: 10px;
+      -fx-background-color: #ffffff;
+      -fx-border-color: #d97b7b;
+      -fx-border-radius: 5px;
+  }
+
+  /* Таблиця */
+  .table-view {
+      -fx-background-color: white;
+      -fx-border-color: #d97b7b;
+      -fx-border-radius: 5px;
+  }
+
+  .table-column {
+      -fx-alignment: CENTER;
+      -fx-font-weight: bold;
+  }
+
+  .table-cell {
+      -fx-padding: 10px;
+  }
+
+  .table-view .column-header {
+      -fx-background-color: #d97b7b;
+      -fx-text-fill: white;
+      -fx-font-weight: bold;
+      -fx-padding: 10px;
+  }
+
+  /* Рядки таблиці */
+  .table-row-cell:filled {
+      -fx-background-color: #f9f9f9;
+  }
+
+  .table-row-cell:even {
+      -fx-background-color: #f1f1f1;
+  }
+
+  /* Лейбли */
+  .label {
+      -fx-font-size: 16px;
+      -fx-font-weight: bold;
+      -fx-text-fill: #333333;
+  }
+
+  /* Фон для основної секції */
+  .vbox {
+      -fx-padding: 20px;
+  }
+
+  /* Спеціальні стилі для контейнера з кнопками */
+  .hbox {
+      -fx-spacing: 20px;
+      -fx-alignment: CENTER;
+  }
+
+  /* Стилі для інтерфейсу пошуку */
+  .anchor-pane {
+      -fx-background-color: #e6e6e6;
+      -fx-padding: 20px;
+  }
